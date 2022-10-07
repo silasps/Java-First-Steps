@@ -1,2 +1,2 @@
 # Java-First-Steps
-This repo aims to store the knowledge absorbed during this season studying in DevinHouse Clamed Sesi Senai.
+This (test) repo aims to store the knowledge absorbed during this season studying in DevinHouse Clamed Sesi Senai.
