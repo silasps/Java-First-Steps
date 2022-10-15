@@ -6,15 +6,27 @@ import java.util.Scanner;
 public class  Ex01_Soma {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
-        int num1, num2, resultado;
+        double num1, num2, resultado;
 
         System.out.println("Digite um número: ");
-        num1 = entrada.nextInt();
+        num1 = entrada.nextDouble();
         System.out.println("Digite outro número: ");
-        num2 = entrada.nextInt();
+        num2 = entrada.nextDouble();
 
         resultado = num1 + num2;
 
-        System.out.println("A soma dos números é: "+ resultado);
+        System.out.println("O resultado da soma é: " + resultado);
     }
 }
+
+//    Scanner entrada = new Scanner(System.in);
+//    int num1, num2, resultado;
+//
+//        System.out.println("Digite um número: ");
+//                num1 = entrada.nextInt();
+//                System.out.println("Digite outro número: ");
+//                num2 = entrada.nextInt();
+//
+//                resultado = num1 + num2;
+//
+//                System.out.println("A soma dos números é: "+ resultado);
