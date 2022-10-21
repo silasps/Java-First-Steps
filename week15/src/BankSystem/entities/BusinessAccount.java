@@ -33,4 +33,9 @@ public class BusinessAccount extends Account{ //henreritance
         }
     }
 
+    @Override //Override sobrescreve o método da classe mãe
+    public void withdraw(double amount){
+        balance -= amount - 2;
+    }
+
 }

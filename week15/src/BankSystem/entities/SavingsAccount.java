@@ -1,6 +1,7 @@
 package BankSystem.entities;
 
-public class SavingsAccount extends Account{ //Conta Poupança
+//final impede que sejam criadas outras classes que extendam seus métodos
+public final class SavingsAccount extends Account{ //Conta Poupança
     private Double interestRate;
 
     public SavingsAccount(){
@@ -22,5 +23,10 @@ public class SavingsAccount extends Account{ //Conta Poupança
 
     public void updateBalance(){
         balance += balance * interestRate;
+    }
+
+    @Override //Override sobrescreve o método da classe mãe
+    public void withdraw(double amount){
+        balance -= amount;
     }
 }
