@@ -24,4 +24,8 @@ public class Coordenador extends Pessoa{
     }
 
     //Métodos
+    @Override
+    public void obterInformacoes(){
+
+    }
 }

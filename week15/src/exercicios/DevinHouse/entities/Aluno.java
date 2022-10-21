@@ -1,5 +1,7 @@
 package exercicios.DevinHouse.entities;
 
+import java.util.Scanner;
+
 public class Aluno extends Pessoa{
     private String curso;
     private Integer matricula;
@@ -34,4 +36,8 @@ public class Aluno extends Pessoa{
     }
 
     //Métodos
+    @Override
+    public void obterInformacoes(){
+
+    }
 }
