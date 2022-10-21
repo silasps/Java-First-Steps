@@ -12,7 +12,7 @@ public class Pessoa{
     //Constructor
     public Pessoa(String nome, Integer idade){
         this.nome = nome;
-        this. idade = idade;
+        this.idade = idade;
     }
 
     //Getters
