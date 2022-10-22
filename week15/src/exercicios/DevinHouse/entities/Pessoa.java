@@ -2,7 +2,7 @@ package exercicios.DevinHouse.entities;
 
 import java.util.Scanner;
 
-public class Pessoa{
+public abstract class Pessoa{
     private String nome;
     private Integer idade;
 
@@ -36,13 +36,5 @@ public class Pessoa{
     }
 Scanner age = new Scanner(System.in);
     //Métodos
-    public void obterInformacoes(){
-        Scanner nm = new Scanner(System.in);
-        Scanner age = new Scanner(System.in);
-
-        System.out.print("Digite seu nome: ");
-        this.nome = nm.nextLine();
-        System.out.print("Digite sua idade: ");
-        this.nome = nm.nextLine();
-    }
+    public abstract void obterInformacoes();
 }
